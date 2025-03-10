@@ -15,10 +15,6 @@
         $requete = $pdo->prepare('SELECT * FROM personnes WHERE email = :utilisateur');
         $requete->execute(array(':utilisateur' => $utilisateur));
         $data = $requete->fetch();
-        
-        // On affiche les données pour vérifier
-        //var_dump($data);
-        
 
         // On vérifie si la personne existe et si le mot de passe est correct
         if ($data) {    // La personne existe
@@ -39,14 +35,19 @@
 
 ?>
 
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connectez-vous !</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <?php
+        require_once 'composants/menu.php'; // On inclut le menu
+    ?>
 
     <h1>Connectez-vous !</h1>
 
