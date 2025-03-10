@@ -35,16 +35,16 @@ CREATE TABLE inscriptions(
 -- Remplissage des tables
 -- Insérer des données dans la table personnes
 INSERT INTO personnes (nom, prenom, email, mot_de_passe, telephone, admin, etudiant, professeur) VALUES
-('Dupont', 'Jean', 'jean.dupont@email.com', 'mdp123', '0601020304', TRUE, FALSE, FALSE),
-('Martin', 'Sophie', 'sophie.martin@email.com', 'mdp456', '0611223344', FALSE, TRUE, FALSE),
-('Durand', 'Paul', 'paul.durand@email.com', 'mdp789', '0622334455', FALSE, FALSE, TRUE),
-('Lefevre', 'Alice', 'alice.lefevre@email.com', 'mdp234', '0633445566', FALSE, TRUE, FALSE),
-('Morel', 'Luc', 'luc.morel@email.com', 'mdp345', '0644556677', FALSE, TRUE, FALSE),
-('Bernard', 'Elise', 'elise.bernard@email.com', 'mdp567', '0655667788', FALSE, FALSE, TRUE),
-('Roux', 'Hugo', 'hugo.roux@email.com', 'mdp678', '0666778899', FALSE, TRUE, FALSE),
-('Vincent', 'Marie', 'marie.vincent@email.com', 'mdp789', '0677889900', FALSE, FALSE, TRUE),
-('Fabre', 'Nicolas', 'nicolas.fabre@email.com', 'mdp890', '0688990011', FALSE, TRUE, FALSE),
-('Giraud', 'Camille', 'camille.giraud@email.com', 'mdp901', '0699001122', FALSE, TRUE, FALSE);
+('Dupont', 'Jean', 'jean.dupont@email.com', '$2y$10$GxIJSF40vKkAlP1zvSWJnODIteVYMsusU4cf4qb9CZsKCIoPHei/O', '0601020304', TRUE, FALSE, FALSE),
+('Martin', 'Sophie', 'sophie.martin@email.com', '$2y$10$oz64FtI6uorCncYrm2t1n.MsIH1UCn0cC9.MUDalWCvXj7hRR1bBS', '0611223344', FALSE, TRUE, FALSE),
+('Durand', 'Paul', 'paul.durand@email.com', '$2y$10$9dAh.LOmUYcffvNlODin5.AXK7kxSu0dnxtxRqCrHC3SC4v7dq46i', '0622334455', FALSE, FALSE, TRUE),
+('Lefevre', 'Alice', 'alice.lefevre@email.com', '$2y$10$85gvtoUCIbhrTcvMvf.9nuALLj0m/KM/IrcN9HK9GTQuFdREYaFZy', '0633445566', FALSE, TRUE, FALSE),
+('Morel', 'Luc', 'luc.morel@email.com', '$2y$10$OgBUzI8kWlBohx0xYjkFQuZKogpV/VH5Qqz8yZRYDYuxkh5i29dWi', '0644556677', FALSE, TRUE, FALSE),
+('Bernard', 'Elise', 'elise.bernard@email.com', '$2y$10$5bLW223r9TyJHCQyKxVdvO4PqEip9S5AN2y05Ya3x403D9jTc33UO', '0655667788', FALSE, FALSE, TRUE),
+('Roux', 'Hugo', 'hugo.roux@email.com', '$2y$10$MIVLDYZfXevJ5IWM7bxk5.jU8jtgMeqLu55HbMKTwz6mVmsxb4hdu', '0666778899', FALSE, TRUE, FALSE),
+('Vincent', 'Marie', 'marie.vincent@email.com', '$2y$10$YQ8re2bvHfbVi2spZGDJjuRnCbA.19oYeVE93UEb/3DhCEeHgOhaC', '0677889900', FALSE, FALSE, TRUE),
+('Fabre', 'Nicolas', 'nicolas.fabre@email.com', '$2y$10$cI8ClLcZm5ahXqxk7jBxgehTm3VI3DlLZPBDYZDtpbTZLHGq/tNq6', '0688990011', FALSE, TRUE, FALSE),
+('Giraud', 'Camille', 'camille.giraud@email.com', '$2y$10$wSutd14vufdEjg04zlKuK.BhVU640HKQ6hOMv4IXZC8qWDbmsw65S', '0699001122', FALSE, TRUE, FALSE);
 
 -- Insérer des données dans la table cours
 INSERT INTO cours (nom) VALUES
